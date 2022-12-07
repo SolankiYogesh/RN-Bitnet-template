@@ -1,8 +1,45 @@
 {
-  "name": "react-native-new-template",
-  "version": "0.0.5",
-  "description": "React Native Template",
-  "repository": "git@github.com:Esemesek/react-native-new-template.git",
-  "author": "Kacper Wiszczuk <kacperwiszczuk@gmail.com>",
-  "license": "MIT"
+  "name": "@SolankiYogesh/RN-Bitnet-template",
+  "version": "5.1.0",
+  "description": "It is a minimalist React Native template with preconfigured common set of packages to start a new app.",
+  "scripts": {
+    "test": "exit 0",
+    "release:major": "npx release-it -- major",
+    "release:minor": "npx release-it -- minor",
+    "release:patch": "npx release-it -- patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolankiYogesh/RN-Bitnet-template.git"
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "starter",
+    "react-native",
+    "react",
+    "native"
+  ],
+  "author": "Solanki Yogesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SolankiYogesh/RN-Bitnet-template/issues"
+  },
+  "homepage": "https://github.com/SolankiYogesh",
+  "dependencies": {},
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
+    }
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^3.3.0",
+    "release-it": "^14.11.5"
+  }
 }
