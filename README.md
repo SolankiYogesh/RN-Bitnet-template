@@ -11,7 +11,7 @@
 # BITNET INFOTECH
 
 
-####How to use 
+How to use 
 
 copy below text and paste into your terminal 
 
