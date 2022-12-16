@@ -28,9 +28,10 @@ const Route = () => {
         screenOptions={{
           headerShown: false,
         }}>
+
+<Stack.Screen name={Screen.HomeScreen} component={HomeScreen} />
         <Stack.Screen name={Screen.AuthFlow} component={renderAuth} />
 
-        <Stack.Screen name={Screen.HomeScreen} component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
