@@ -16,6 +16,6 @@ How to use
 copy below text and paste into your terminal 
 
     
-      npx react-native init MyApp --template https://github.com/SolankiYogesh/RN-Bitnet-template
+      npx react-native init MyApp --template https://github.com/SolankiYogesh/RN-Bitnet-template.git
     
     
